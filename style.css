@@ -31,7 +31,11 @@ footer{
     color: white;
 }
 .div_logo{
-
+    height: 60%;
+    transition: 0.5s;
+}
+.div_logo:hover{
+    height: 55%;
 }
 .h3_logo{
     display: inline;
