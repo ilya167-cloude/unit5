@@ -10,7 +10,9 @@ html{
 }
 header{
 height: 90px;
+width: 100%;
 background-color:black;
+position: fixed;
 }
 main{
 
@@ -25,23 +27,33 @@ footer{
     float: right;
     list-style-type: none;
     margin: 10px;
+    transition: all 0.5s 0s;
+
 }
 .a_burger{
     text-decoration: none;
     color: white;
 }
+.li_burger:hover{
+    margin: 20px 10px;
+}
 .div_logo{
-    height: 60%;
-    transition: 0.5s;
+    height: 350px;
+    transition: all 0.5s 0s;
 }
 .div_logo:hover{
-    height: 55%;
+    height: 330px;
 }
 .h3_logo{
     display: inline;
     float: left;
     margin: 10px;
     color: white;
+    transition: all 0.5s 0s;
+
+}
+.h3_logo:hover{
+    margin-top: 20px;
 }
 .div_bacground_img{
     background:url(./unnamed.jpg) center/100% auto;
@@ -60,6 +72,7 @@ footer{
     width: 300px;
     height: 300px;
     border:solid 5px;
+    margin-bottom: 15px;
 }
 
 .div_main_text{
@@ -73,6 +86,11 @@ footer{
 }
 h2{
     justify-content: center;
+    transition: all 0.5s 0s;
+    margin-top: 20px;
+}
+h2:hover{
+    margin-top: 30px;
 }
 .my_names{
     display: block;
